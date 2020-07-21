@@ -28,7 +28,7 @@ class ViewController: UIViewController {
     
     @IBAction func searchPressed(_ sender: Any) {
         self.presentSearchAlertController(withTitle: "Enter city name", message: nil, style: .alert) { [unowned self] city in
-            self.networkWeatherManager.fetchCurrentWeather(forCity: city)
+            self.networkWeatherManager.fetchCurrentWeather(forRequestType: .cityName(city: city))
         }
     }
     
@@ -63,7 +63,7 @@ extension ViewController: CLLocationManagerDelegate {
         let latitude = locations.coordinate.latitude
         let longitude = locations.coordinate.longitude
         
-        networkWeatherManager.fetchCurrentWeather(forCity: <#T##String#>)
+        networkWeatherManager.fetchCurrentWeather(forRequestType: .coordinate(latitude: latitude, longitude: longitude))
     }
     
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
