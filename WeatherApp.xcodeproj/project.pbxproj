@@ -17,6 +17,7 @@
 		35800E6D24C454EB002AEE48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35800E6C24C454EB002AEE48 /* Assets.xcassets */; };
 		35800E7024C454EB002AEE48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35800E6E24C454EB002AEE48 /* LaunchScreen.storyboard */; };
 		35800E7D24C4659E002AEE48 /* ViewController+alertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35800E7C24C4659E002AEE48 /* ViewController+alertController.swift */; };
+		3586BC7D24C6A4B0001812A5 /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3586BC7C24C6A4B0001812A5 /* CurrentWeather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		35800E6F24C454EB002AEE48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35800E7124C454EB002AEE48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35800E7C24C4659E002AEE48 /* ViewController+alertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+alertController.swift"; sourceTree = "<group>"; };
+		3586BC7C24C6A4B0001812A5 /* CurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			children = (
 				35673BEF24C5D50300C3A4AD /* NetworkWeatherManager.swift */,
 				35673BF324C69A7900C3A4AD /* CurrentWeatherData.swift */,
+				3586BC7C24C6A4B0001812A5 /* CurrentWeather.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 			files = (
 				35800E6824C454E6002AEE48 /* ViewController.swift in Sources */,
 				35800E7D24C4659E002AEE48 /* ViewController+alertController.swift in Sources */,
+				3586BC7D24C6A4B0001812A5 /* CurrentWeather.swift in Sources */,
 				35673BF224C5D88100C3A4AD /* Constans.swift in Sources */,
 				35673BF024C5D50300C3A4AD /* NetworkWeatherManager.swift in Sources */,
 				35800E6424C454E6002AEE48 /* AppDelegate.swift in Sources */,
